@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" href="img/wallet.png">
+		<title>uWallet</title>
+	</head>
+	<body>
+		<div class="navbar">
+     <a href="home.html">Home</a>
+     <a href="carteira.html">Carteira</a>
+     <a href="conta.html">Minha Conta</a>
+		</div>
+
+		<div class="main">
+      <div id="secao" class="box">
+        <div>
+          <h3>Novo Cartão</h3>
+          <div class="linha"></div>
+        </div>
+
+        <form action="">
+          <fieldset>
+            <label for="nome">Nome:</label>
+            <input id="nome" class="input" type="text" name="nome"><br><br>
+
+            <label  for="vencimento">Vencimento:</label>
+            <input id="vencimento" class="input" type="date" name="vencimento"><br><br>
+
+            <label for="automatico">Débito Automático:</label>
+            <input id="automatico" type="radio" name="automatico" value="nao">Não
+            <input type="radio" name="automatico" value="sim">Sim
+
+            <br><br>
+            <input class="botao" type="reset" value="Cancelar">
+            <input class="botao" type="submit" value="Salvar">
+          </fieldset>
+        </form>
+      </div>
+		</div>
+	</body>
+</html>

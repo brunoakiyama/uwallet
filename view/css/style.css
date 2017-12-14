@@ -1,0 +1,172 @@
+body {
+    font-family: arial;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #618685;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #507574;
+}
+
+.main {
+    margin-top: 80px;
+    /*border: solid 2px red;*/
+}
+
+.box {
+    margin: auto;
+    width: 80%;
+    margin-bottom: 10px;
+    /*border: solid 2px green;*/
+}
+
+.botao {
+    background-color: #80ced6;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: inline-block;
+}
+
+.botao:hover {
+    background-color: #68acb4;
+}
+
+.input {
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+    background-color: #DDD;
+}
+
+.input:focus {
+    background-color: white;
+}
+
+.linha {
+    background-color: black;
+    margin: auto;
+    margin-bottom: 10px;    
+    height: 2px;
+    width: 100%;
+    display: block;
+}
+
+input[type=reset] {background-color: #f7786b;}
+input[type=reset]:hover {background-color: #d55759;}
+
+input[type=submit] {background-color: #52ad83;}
+input[type=submit]:hover {background-color: #408c71;}
+
+fieldset {
+    background-color: #ffeead;
+    border-radius: 5px;
+    border-color: #ddcc9c;
+    border: 5px;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+label {
+    position: relative;
+    width: 20%;
+    margin-bottom: 0;
+    padding-top: 7px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: inline-block;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: right;
+}
+
+#direita {
+    width: 5%;
+}
+    
+input[type=reset] {
+    margin-top: 80px;
+    margin-left: 22%;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    margin-left: 22%;   
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;    
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.acao {
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: inline-block;
+}
+
+#remover {background-color: #f7786b;}
+#remover:hover {background-color: #d55759;}
+
+#editar {background-color: #52ad83;}
+#editar:hover {background-color: #408c71;}
+
+#secao {
+    background-color: #ffeead;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#novo-cartao {
+    float: right;
+    margin-bottom: 10px;
+}
+
+#nova-receita {
+    width: 25%;
+    margin-top: 10px;
+}

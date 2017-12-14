@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" href="img/wallet.png">
+		<title>uWallet</title>
+	</head>
+	<body>
+		<div class="navbar">
+     <a href="home.html">Home</a>
+     <a href="carteira.html">Carteira</a>
+     <a href="conta.html">Minha Conta</a>
+		</div>
+
+		<div class="main">
+      <div id="secao" class="box">
+        <div>
+          <h3>Nova Despesa</h3>
+          <div class="linha"></div>
+        </div>
+
+        <form action="">
+          <fieldset>
+            <label for="nome">Nome:</label>
+            <input id="nome" class="input" type="text" name="nome">
+
+            <label id="direita" for="valor">Valor:</label>
+            <input id="valor" class="input" type="number" step="0.1" name="valor"><br><br>
+
+            <label for="data">Data:</label>
+            <input id="data" class="input" type="date" name="data"><br><br>
+
+            <textarea class="input" rows="10" cols="50" name="descricao" placeholder="Descrição..."></textarea>
+            <br><br>
+
+            <label for="tipo">Tipo:</label>
+            <select class="botao" name="tipo">
+              <option value="">Viagem</option>
+              <option value="">Restaurante</option>
+              <option value="">Compras</option>
+              <option value="">Academia</option>
+            </select>
+
+            <label for="pagamento">Forma de Pagamento:</label>
+            <select class="botao" name="pagamento">
+              <option value="">BB</option>
+              <option value="">Caixa</option>
+              <option value="">NuBank</option>
+              <option value="">Dinheiro</option>
+            </select>
+
+            <br><br>
+            <input class="botao" type="reset" value="Cancelar">
+            <input class="botao" type="submit" value="Salvar">
+          </fieldset>
+        </form>
+      </div>
+		</div>
+	</body>
+</html>
